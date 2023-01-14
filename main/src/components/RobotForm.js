@@ -22,6 +22,7 @@ function RobotForm () {
 
     return (
         <div>
+            <h1>Robot form</h1>
             <label htmlFor='name'>name</label>
             <input id='name' type='text' ref={refName} placeholder="name" onChange={(evt) => setName(evt.target.value)}></input>
             <label htmlFor='type'>type</label>
